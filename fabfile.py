@@ -4,7 +4,7 @@ from fabric.contrib.files import sed
 
 
 env.roledefs = {
-    'db': ['127.0.0.1:2222']
+    'db': ['192.168.50.4:22']
 }
 
 
